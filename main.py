@@ -1,1 +1,0 @@
-print("Cloud Isar Docker Test")

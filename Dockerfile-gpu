@@ -3,3 +3,12 @@ From tensorflow/tensorflow:1.13.1-gpu
 COPY main.py /
 
 CMD [ "python", "./main.py" ]
+
+#FROM python:latest
+
+#FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env
+
+#COPY main.py /
+
+#CMD [ "python", "./main.py" ]
+#CMD ["gunicorn", "--bind", "0.0.0.0:5000", "{subfolder}.{module_file}:app"]
